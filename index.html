@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recicle Já: proposta de plataforma para integrar condomínios residenciais, cooperativas de catadores, prefeituras e indústria recicladora na coleta seletiva.">
+  <title>Recicle Já · Coleta seletiva em condomínios</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">Recicle Já</a>
+      <ul class="nav-links">
+        <li><a href="#problema">Problema</a></li>
+        <li><a href="#solucao">Solução</a></li>
+        <li><a href="#fluxo">Fluxo</a></li>
+        <li><a href="#telas">Telas</a></li>
+        <li><a href="#documentos">Documentos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Protótipo demonstrativo · Proposta conceitual</p>
+          <h1>Recicle Já</h1>
+          <p class="lead">Logística reversa e coleta seletiva para condomínios residenciais, conectando moradores, síndicos, cooperativas de catadores, prefeituras e indústria recicladora.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#telas">Ver telas do protótipo</a>
+            <a class="btn btn-ghost" href="#documentos">Ler os documentos</a>
+          </div>
+        </div>
+        <figure class="hero-shot">
+          <img src="assets/img/tela-login.png" alt="Tela de acesso do protótipo Recicle Já, com campos para nome do condomínio e perfil de atuação" width="669" height="1488">
+        </figure>
+      </div>
+    </section>
+
+    <section id="problema" class="section">
+      <div class="container">
+        <h2>O problema</h2>
+        <p class="section-intro">Existe coleta convencional em grande parte das cidades, mas isso não garante que os recicláveis voltem à cadeia produtiva.</p>
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-value">81,6 mi t</span>
+            <span class="stat-label">de resíduos sólidos urbanos gerados no Brasil em 2024</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">49,2%</span>
+            <span class="stat-label">desse total foi gerado na região Sudeste</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">8,7%</span>
+            <span class="stat-label">dos resíduos gerados foram encaminhados à reciclagem (7,1 mi t de secos)</span>
+          </div>
+        </div>
+        <ul class="list">
+          <li><strong>Condomínios:</strong> sem controle padronizado de volume, frequência e destino dos materiais.</li>
+          <li><strong>Cooperativas:</strong> pouca informação antecipada sobre volume, tipo de material e horário de retirada.</li>
+          <li><strong>Prefeituras:</strong> difícil acompanhar programas e justificar incentivos com dados confiáveis.</li>
+          <li><strong>Indústria:</strong> matéria-prima irregular, pouco padronizada e dependente de intermediários.</li>
+        </ul>
+        <p class="source">Fonte: ABREMA, Panorama dos Resíduos Sólidos no Brasil 2025 (dados de 2024).</p>
+      </div>
+    </section>
+
+    <section id="solucao" class="section section-alt">
+      <div class="container">
+        <h2>A solução</h2>
+        <p class="section-intro">Uma plataforma digital que organiza a cadeia da coleta seletiva e registra cada etapa, do condomínio à destinação industrial.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Gestão condominial</h3>
+            <p>Adesão, responsáveis internos, volumes de recicláveis, coletas realizadas e relatórios de desempenho.</p>
+          </article>
+          <article class="card">
+            <h3>Ambiente de lotes</h3>
+            <p>O condomínio publica lotes de materiais e cooperativas, recicladoras e coletores enviam ofertas. O histórico da rodada fica registrado.</p>
+          </article>
+          <article class="card">
+            <h3>Negociação com a indústria</h3>
+            <p>Cooperativas cadastram lotes triados, com tipo de material, pureza, volume e documentação, para negociação com recicladoras.</p>
+          </article>
+          <article class="card">
+            <h3>Painel gerencial</h3>
+            <p>Consolida lotes, massa estimada, valores ofertados e situação das rodadas para acompanhamento.</p>
+          </article>
+          <article class="card">
+            <h3>Educação ambiental</h3>
+            <p>Orientações de descarte, materiais aceitos, lembretes e devolutivas sobre os volumes destinados.</p>
+          </article>
+          <article class="card">
+            <h3>Logística (futuro)</h3>
+            <p>Agrupamento de coletas entre condomínios próximos, considerando volume, capacidade e janelas de atendimento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="fluxo" class="section">
+      <div class="container">
+        <h2>Como funciona</h2>
+        <p class="section-intro">Fluxo funcional da demonstração, a partir da identificação do usuário.</p>
+        <ol class="steps">
+          <li>
+            <span class="step-num" aria-hidden="true">1</span>
+            <div>
+              <h3>Acesso por perfil</h3>
+              <p>O administrador vai ao painel do condomínio. O participante vai ao catálogo de lotes disponíveis.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">2</span>
+            <div>
+              <h3>Cadastro do lote</h3>
+              <p>O administrador informa o material acumulado, peso estimado, oferta mínima, prazo da rodada e janela de coleta.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">3</span>
+            <div>
+              <h3>Busca e lances</h3>
+              <p>Cooperativas, recicladoras e coletores filtram oportunidades, consultam a ficha do lote e registram ofertas. A maior oferta é atualizada durante a rodada.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">4</span>
+            <div>
+              <h3>Encerramento e coleta</h3>
+              <p>O sistema identifica o vencedor e reúne dados para agendar a retirada, conferir o peso e registrar a movimentação.</p>
+            </div>
+          </li>
+        </ol>
+        <p class="note"><strong>Limites do protótipo:</strong> não emite documentos oficiais, não executa pagamentos e não formaliza contratos. Essas integrações dependem de validação operacional e jurídica.</p>
+      </div>
+    </section>
+
+    <section id="telas" class="section section-alt">
+      <div class="container">
+        <h2>Telas do protótipo</h2>
+        <p class="section-intro">Capturas das jornadas implementadas: participante comprador e administrador do condomínio. Clique em uma imagem para vê-la em tamanho real.</p>
+        <div class="gallery">
+          <figure>
+            <a href="assets/img/tela-login.png"><img src="assets/img/tela-login.png" alt="Tela inicial com campos para nome do condomínio e seleção do perfil de atuação" loading="lazy" width="669" height="1488"></a>
+            <figcaption><strong>Acesso</strong> · identificação e seleção do perfil</figcaption>
+          </figure>
+          <figure>
+            <a href="assets/img/tela-dashboard-lotes.jpg"><img src="assets/img/tela-dashboard-lotes.jpg" alt="Painel de busca e filtragem de lotes recicláveis disponíveis" loading="lazy" width="669" height="1488"></a>
+            <figcaption><strong>Lotes disponíveis</strong> · busca e filtros para o comprador</figcaption>
+          </figure>
+          <figure>
+            <a href="assets/img/tela-detalhe-lote.jpg"><img src="assets/img/tela-detalhe-lote.jpg" alt="Ficha de um lote com informações operacionais e campo para envio de lance" loading="lazy" width="669" height="1488"></a>
+            <figcaption><strong>Ficha do lote</strong> · informações operacionais e envio de lance</figcaption>
+          </figure>
+          <figure>
+            <a href="assets/img/tela-resultado-rodada.png"><img src="assets/img/tela-resultado-rodada.png" alt="Resultado de uma rodada encerrada, com vencedora, maior lance e jornada de rastreabilidade" loading="lazy" width="669" height="1488"></a>
+            <figcaption><strong>Resultado da rodada</strong> · vencedor, maior lance e jornada de destinação</figcaption>
+          </figure>
+          <figure>
+            <a href="assets/img/tela-painel-admin.jpg"><img src="assets/img/tela-painel-admin.jpg" alt="Painel administrativo do condomínio para gestão dos lotes" loading="lazy" width="669" height="1488"></a>
+            <figcaption><strong>Painel do condomínio</strong> · gestão dos lotes cadastrados</figcaption>
+          </figure>
+          <figure>
+            <a href="assets/img/tela-cadastro-lote.jpg"><img src="assets/img/tela-cadastro-lote.jpg" alt="Formulário de cadastro e abertura de um novo lote" loading="lazy" width="669" height="1488"></a>
+            <figcaption><strong>Novo lote</strong> · formulário de cadastro e abertura da rodada</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologia" class="section">
+      <div class="container">
+        <h2>Tecnologia do protótipo</h2>
+        <ul class="tags" aria-label="Tecnologias utilizadas">
+          <li>Kotlin</li>
+          <li>Android nativo (minSdk 24, API 36)</li>
+          <li>Jetpack Compose</li>
+          <li>Material Design 3</li>
+          <li>Arquitetura MVVM</li>
+          <li>Kotlin Coroutines e StateFlow</li>
+          <li>Room (persistência local)</li>
+        </ul>
+        <p class="note"><strong>Estágio atual:</strong> protótipo demonstrativo. Ainda não houve validação com usuários, pesquisa de campo, piloto ou operação com dados reais.</p>
+      </div>
+    </section>
+
+    <section id="documentos" class="section section-alt">
+      <div class="container">
+        <h2>Documentos</h2>
+        <p class="section-intro">Produções acadêmicas e comerciais do projeto, desenvolvidas no curso de Pós-Graduação em Gestão de Projetos em Inovação e Sustentabilidade (São Bernardo do Campo, SP, julho de 2026).</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Artigo científico</h3>
+            <p>Proposta conceitual do Recicle Já: condomínios residenciais como vetor de ampliação da coleta seletiva na região Sudeste.</p>
+            <a class="card-link" href="docs/Recicle_Ja_artigo_final_completo.pdf">Abrir PDF</a>
+          </article>
+          <article class="card">
+            <h3>Relatório comercial</h3>
+            <p>Título comercial, modelo de monetização, clientes, proposta de valor e diferenciais competitivos.</p>
+            <a class="card-link" href="docs/Recicle_Ja_relatorio_comercial_final_completo.pdf">Abrir PDF</a>
+          </article>
+        </div>
+        <p class="source">Autores: Giuliano Ferreira dos Santos, Antonio Renato Stivale, Luiz Gustavo de Freitas, Gabriel Menezes Moreira e João Henrique Delibaldo. Orientadora: Cristina Chiyoda Koshima.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Recicle Já · Projeto acadêmico e conceitual · 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
